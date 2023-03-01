@@ -1,0 +1,9 @@
+To be able to use the qemu emulator we must install gcc-aarch64-linux-gnu
+
+	1- SETTING UP AARCH64 TOOLCHAIN
+	$ sudo apt install gcc-aarch64-linux-gnu
+
+	2- SETTING UP QEMU ARM (includes aarch64)
+	$ sudo apt install qemu-system-arm
+
+Then we can enter the folder of the exercise that we want to execute and use the make file
